@@ -1,0 +1,244 @@
+/* 1. Theme default css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800;900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: #feaa25;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: #242f51;
+    outline: medium none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #242f51;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #616368;
+    font-weight: 400;
+}
+
+/* button style */
+
+.btn {
+    width: 170px;
+    height: 57px;
+    border-radius: 29px;
+    background-color: #2500f9;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header style */
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    padding: 0 18px;
+}
+
+/* banner area style */
+#banner {
+    min-height: calc(100vh - 72px);
+    background-image: url("./images/banner-Bg.png");
+    background-repeat: no-repeat;
+    /* background-position: left bottom; */
+    background-size: cover;
+}
+
+.inner-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_content {
+    max-width: 515px;
+}
+
+.banner_content h6 {
+    max-width: 362px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #e2eaed;
+}
+
+.banner_content i {
+    width: 39px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #feaa25;
+    line-height: 35px;
+    text-align: center;
+}
+
+.video_btn {
+    background: none;
+    font-size: 16px;
+    line-height: 44px;
+    color: #2500f9;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.banner_img {
+   max-width: 380px;
+}
+
+.banner_img img {
+    max-width: 100%;
+}
