@@ -639,6 +639,20 @@ width: 100%;
 
 .download_img {
     max-width: 540px;
+    position: relative;
+}
+.download_img::before {
+    content: "";
+    position: absolute;
+    background-image: url("./images/download-bg.png");
+    top: 10%;
+    /* right: -50%; */
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
 }
 
 .download_img img {

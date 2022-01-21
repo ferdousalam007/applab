@@ -42,10 +42,19 @@
         flex-direction: column;
     }
     .opacity1{
-        opacity: .1;
+        display: none;
     }
     .client_bg::before {
         display: none;
+    }
+    .download_img::before {
+        display: none;
+    }
+    #client{
+        padding: 50px 0;
+    }
+    .client_content h2{
+        font-size: 30px;
     }
   }
   
